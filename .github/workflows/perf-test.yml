@@ -13,6 +13,7 @@ jobs:
 
     container:
       image: grafana/k6:latest
+      options: ["--user", "1001:1001"]
 
     steps:
       - name: Checkout repository
