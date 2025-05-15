@@ -3,7 +3,7 @@ import { setLimit, buyBolton } from "./lib/api.js";
 
 export let options = {
 	vus: 5,
-	duration: "30s",
+	duration: "10s",
 };
 
 export default function () {
